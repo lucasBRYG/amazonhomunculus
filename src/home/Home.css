@@ -8,9 +8,11 @@
 
 .home__image {
     width: 100%;
+
+    min-height: 180px;
     
     z-index: -1;
-    margin: 0 0 -280px;
+    margin: 0 0 -180px;
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
