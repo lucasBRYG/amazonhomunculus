@@ -1,22 +1,35 @@
+import userEvent from '@testing-library/user-event';
 import React, { useState } from 'react'
+import { Link, useHistory } from "react-router-dom";
 
-import { Link } from "react-router-dom";
+import { auth } from "../firebase";
 
 import "./Login.css"
 function Login() {
+    const history = useHistory();
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
+    //firebase login logic
     const signIn = (e) => {
         e.preventDefault();
 
-        //firebase login logic
+        auth.signInWithEmailAndPassword(email, password).then(auth => {
+            history.push("/")
+        }).catch(error => alert(error.message))
     }
 
+    //firebase register logic
     const register = (e) => {
         e.preventDefault();
 
-        //firebase register logic
+        auth.createUserWithEmailAndPassword(email, password)
+        .then((auth) => {
+            console.log(auth);
+            if (auth) {
+                history.push("/");
+            }
+        }).catch((error) => alert(error.message));
     }
 
     return (
