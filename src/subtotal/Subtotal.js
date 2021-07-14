@@ -9,10 +9,6 @@ import "./Subtotal.css"
 function Subtotal() {
 
     const [{ basket }, dispatch] = useStateValue();
-    let subtotal = 0;
-    basket.forEach(item => {
-        subtotal += item.price;
-    });
 
     return (
         <div className = "subtotal">
