@@ -63,6 +63,7 @@
 }
 
 .header__optionBasket {
+    margin-top: 3px;
     display: flex;
     align-items: center;
     color: white;
