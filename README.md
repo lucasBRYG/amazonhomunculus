@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/lucasBRYG/amazonhomunculus?style=plastic)
 ---
 
-[!Amaxon clone picture](https://raw.githubusercontent.com/lucasBRYG/amazonhomunculus/main/public/AmazonHomunculus.png)
+![Amaxon clone picture](https://raw.githubusercontent.com/lucasBRYG/amazonhomunculus/main/public/AmazonHomunculus.png)
 
 A working Amazon clone built using react.js
 
@@ -13,9 +13,9 @@ Check out the deployed build here: https://homunculus-ad003.web.app/
 
 # Table of Conetents
 
-[Technolonties](#technologies)
-[How To Use](#how-to-use)
-[Liscence](#liscence)
+ - [Technologies](#technologies)
+ - [How To Use](#how-to-use)
+ - [Liscence](#liscence)
 
 
 # Technologies:
