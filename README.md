@@ -2,7 +2,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/lucasBRYG/amazonhomunculus?style=plastic)
 ---
 
-[!Amaxon clone picture]()
+[!Amaxon clone picture](https://raw.githubusercontent.com/lucasBRYG/amazonhomunculus/main/public/AmazonHomunculus.png)
 
 A working Amazon clone built using react.js
 
