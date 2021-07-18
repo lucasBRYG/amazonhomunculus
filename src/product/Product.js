@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { useStateValue } from '../StateProvider';
+import randomNumber from '../randomNumber';
 
 import "./Product.css"
 function Product({ id, title, img, price, rating }) {
@@ -12,7 +13,7 @@ function Product({ id, title, img, price, rating }) {
         dispatch({
             type: 'ADD_TO_BASKET',
             item: {
-                id: id,
+                id: randomNumber(id),
                 title: title,
                 img: img,
                 price: price,
