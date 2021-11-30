@@ -23,7 +23,7 @@ Check out the deployed build here: https://homunculus-ad003.web.app/
  - JavaScript
  - CSS
  - React.js
- - Rudex
+ - Redux
  - Firebase Cloud Functions
  - Firebase Authentication
  - Firebase Firestore Database
